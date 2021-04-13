@@ -1,0 +1,8 @@
+.test-card:hover{
+    background: linear-gradient(to right, #19D3AE, #0FCFEA);
+    color: #fff;
+    cursor: pointer;
+}
+.test-card:hover blockquote,
+.test-card:hover h4,
+.test-card:hover h5{color: #fff !important;}

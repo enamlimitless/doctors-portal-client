@@ -1,38 +1,29 @@
-.App {
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+html{font-size: 62.5%;}
+.head-text{
+  font-size: 4.5rem;
+  color: #203047;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: .5rem 0 1rem 0;
+}
+.sub-head{
+  font-size: 2.5rem;
+  color: #12D0D7;
   text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.descrip{
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #6c757d;
+  letter-spacing: .1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+section{padding: 5rem 0;}

@@ -1,0 +1,22 @@
+::selection {
+    color: #fff;
+    background: tomato;
+  }
+  .header-container {
+    /* height:600px; */
+    width:100%;
+    position:relative;
+    background-image: url('../../../images/chairbg.png');
+    background-position: top center;
+    background-size: cover;
+}
+.header-container::after {
+    height: 100vh;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    right: 0;
+    background-color: #3A4256;
+    z-index: -500;
+}

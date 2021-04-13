@@ -1,0 +1,26 @@
+.info-primary{
+    background-color: #1CC7C1;
+    color: #fff;
+}
+.info-dark{
+    background-color: #3A4256;
+    color: #fff;
+}
+.info-container{margin-top: -3rem;}
+.info-container::after{
+    content: '';
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.info-container h5{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.info-container small{
+    font-size: 1rem;
+}
+.info-container .icon{
+    font-size: 3rem;
+    margin-right: 2rem;
+}

@@ -1,0 +1,12 @@
+.appointment-container{
+    background: linear-gradient(#41495cee, #41495cf1) ,url('../../../images/teethmatchine.png');
+    /* background-position: center center; */
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+}
+.appointment-container img{
+    height: 60rem;
+    margin-top: -15rem;
+}
